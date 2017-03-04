@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:gray;">
+    <div class="header-container">
+            <header class="wrapper clearfix">
+                <h2 class="title">Dasarsh Manikonda's</h2>
+                <nav>
+                    <ul>
+                        <li><a href="index">Aboutme</a></li>
+                        <li><a href="Mychoice">My choice</a></li>
+                        <li><a href="contact">contact</a></li>
+                        <li><a href="guest-book">guestbook</a><li>
+                    </ul>
+                </nav>
+            </header>
+
+
+<h2>Introvert test</h2>
+<form id="ty">
+ Name: <input id="cv" type="text" name="FirstName" >
+
+<input onclick="fun1()" id="ty1"type="button" value="Submit">
+</form>
+<h4>***select any one option per question one after another***</h4>
+
+
+
+<h2>what do you do when alone at home</h2>
+<button onclick="myFunction()">i watch movies</button> ...<button onclick="myFunction1()">Self talk and recalling memories</button>
+<p>your intro level  is</p>
+<p id="demo"></p><p id="demo1"></p>
+
+
+
+
+<h2>what plant would you grow</h2>
+<button onclick="myFunction2()">rose</button>..<button onclick="myFunction3()">cactus</button>
+<p >your intro level is</p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<h2> How do you feel in big crowds</h2>
+<button onclick="myFunction4()">Not Feeling Yourself</button>..<button onclick="myFunction5()">Safe</button>
+<p>your final introvert level is</p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+
+
+<script>
+var x=10;
+var z=0;
+var zq=0;
+var qw=0;
+var qwe=0;
+var op=0;
+var iop=0;
+var z=0;
+function myFunction() {
+    
+
+ z = 1;
+document.getElementById("demo").innerHTML = z;
+return z;
+    
+}
+
+function myFunction1() {
+   
+ zq=5;
+document.getElementById("demo1").innerHTML = zq;
+return zq;
+
+    
+}
+function myFunction2(){
+ qw=z+zq+1;
+document.getElementById("demo2").innerHTML=qw;
+return qw;
+}
+function myFunction3(){
+ qwe=z+zq+5;
+document.getElementById("demo3").innerHTML=qwe;
+return qwe;
+}
+function myFunction4(){
+ op=z+qw+qwe+zq+5;
+document.getElementById("demo4").innerHTML=op;
+return op;
+}
+function myFunction5(){
+var iop=z+zq+qw+qwe+1;
+document.getElementById("demo5").innerHTML=iop;
+return iop;
+}
+
+
+
+</script>
+
+</body>
+</html>

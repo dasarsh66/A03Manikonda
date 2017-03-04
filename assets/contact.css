@@ -1,0 +1,25 @@
+body {
+    background-image:url("1.jpg");
+
+    background-repeat : no-repeat;
+      background-size : 1500px 1000px;
+      background-color: darkred;
+      background-size:cover;
+background-position: right right;}
+
+
+h1{
+  color:gold;
+  size: 2em;
+  text-align: center;
+  -webkit-text-size-adjust: 10em;
+
+}
+html {
+    color:darkblue;
+    font-size: 2em;
+    line-height: 1.4;
+    text-align: center;
+}
+   
+}
